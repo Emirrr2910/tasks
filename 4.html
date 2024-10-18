@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal</title>
+</head>
+<body>
+    <h3>CV Data Entry Form</h3>
+    <hr>
+    <form>
+    <fieldset>
+        <legend><b>Personal information</b></legend>
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location"><br><br>
+        <label for="file">Upload profile picture:</label>
+        <input type="file" id="file" name="file" accept=".jpeg,.png,.jpg"><br><br>
+    </fieldset><br><br>
+    <fieldset>
+        <legend><b>Introduction</b></legend>
+        <label for="fieldset">Write a short information about yourself</label><br>
+        <textarea id="fieldset" name="fieldset" rows="5" cols="40"></textarea>
+    </fieldset><br><br>
+    <fieldset>
+         <legend><b>Skils</b></legend>
+         <input type="checkbox" id="chbx" name="html" value="HTML">
+         <label for="chbx">HTML</label><br>
+         <input type="checkbox" id="chbx" name="css" value="CSS">
+         <label for="chbx">CSS</label><br>
+         <input type="checkbox" id="chbx" name="JavaScript" value="JavaScript">
+         <label for="chbx">JavaScript</label><br>
+         <input type="checkbox" id="chbx" name="react" value="React">
+         <label for="chbx">React</label><br>
+         <input type="checkbox" id="chbx" name="nodejs" value="Node.js">
+         <label for="chbx">Node.js</label><br>
+         <input type="checkbox" id="chbx" name="express" value="Express">
+         <label for="chbx">Express</label><br>
+         <input type="checkbox" id="chbx" name="git" value="Git">
+         <label for="chbx">Git</label><br>
+         <input type="checkbox" id="chbx" name="wpo" value="Web performance Optimization">
+         <label for="chbx">Web performance Optimization</label><br>
+    </fieldset><br><br>
+    <fieldset>
+        <legend><b>Experience</b></legend>
+        <label for="position">Current position:</label>
+        <input type="text" id="position" name="position"><br><br>
+        <label for="fieldset">Describe your experience: </label><br>
+        <textarea id="fieldset" name="fieldset" rows="5" cols="40"></textarea>
+    </fieldset><br><br>
+    <fieldset>
+        <legend><b>Education & Certifications</b></legend>
+        <p>Degree
+            <select name="choice">
+                
+                <option value="Highschool">Highschool</option>
+                <option value="Elementary school">Elementary school</option>
+                <option value="Collage">Collage</option>
+            </select> </p>
+        <label for="fieldset">Certification: </label><br>
+        <textarea id="fieldset" name="fieldset" rows="5" cols="40"></textarea>
+    </fieldset><br><br>
+    <fieldset>
+        <legend><b>Personal projects</b></legend>
+        <label for="fieldset">Describe your personal projects: </label><br>
+        <textarea id="fieldset" name="fieldset" rows="5" cols="40"></textarea>
+    </fieldset><br><br>
+    <input type="submit" value="Submit CV">
+    </form>
+</body>
+</html>

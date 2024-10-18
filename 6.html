@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>CV Subscription Managment Form</h3>
+    <hr>
+    <form action="/slika.jpg" method="POST">
+        <fieldset>
+            <legend>Details</legend>
+            <label for="email"><u><b>Email:</b></u></label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="link"><u><b>Link:</b></u></label>
+            <input type="link" id="link" name="link"><br><br>
+            <label for="password"><u><b>Password:</b></u></label>
+            <input type="password" id="password" name="password"><br><br>
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Reasons for Ending Subscription</legend>
+                <p><b>Select reason</b>
+                <select name="choice">
+                    <option value="Bad quality">Bad quality</option>
+                    <option value="Small size">Small size</option>
+                    <option value="Other" selected>Other</option>
+                </select>
+                </p><br>
+                <p><em>Would you use our other tools again?</em></p>
+                <label for="yes">Yes</label>
+                <input type="radio" name="yes" id="yes" value="yes"><br>
+                <label for="no">No</label>
+                <input type="radio" name="no" id="no" value="No"><br>
+                <label for="yes">Maybe</label>
+                <input type="radio" name="maybe" id="maybe" value="maybe"><br><br>
+                <label for="fieldset">Additional Comments:</label><br>
+                <textarea id="fieldset" name="fieldset" rows="4" cols="40" placeholder="Your comments..."></textarea><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+
+    </form>
+</body>
+</html>

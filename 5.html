@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Ticket</title>
+</head>
+<body>
+    <h3>IT Center Ticket Form</h3>
+    <hr>
+    <form>
+        <p>Type of Problems:
+            <select name="choice">
+                <option value="Help & Guidance">Help & Guidance</option>
+                <option value="File upload issues">File upload issues</option>
+            </select></p>
+        <p>Select urgency: <br>
+            <label for="not_urgent">Not urgent</label>
+            <input type="radio" name="not_urgent" id="not_urgent" value="Not urgent"><br>
+            <label for="mild">Mild</label>
+            <input type="radio" name="mild" id="mild" value="Mild"><br>
+            <label for="highly_urgent">Highly urgent</label>
+            <input type="radio" name="highly_urgent" id="highly_urgent" value="Highly urgent"><br><br>
+            <label for="file">Upload a picture (JPG,JPEG,PNG):</label>
+            <input type="file" id="file" name="file" accept=".jpeg,.png,.jpg"><br><br>
+            <input type="submit" value="Submit Ticket"></p><br><br>
+    </form>
+</body>
+</html>
